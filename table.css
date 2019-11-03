@@ -1,0 +1,86 @@
+/* CSS Document */
+/*table関連*/
+table {
+	border-collapse: collapse;
+	border-spacing: 0px;
+	width: 100%;
+	overflow: auto;
+	break-inside: auto;
+	text-align: left;
+	margin: 0.8em 0;
+	padding: 0;
+    word-break: initial;
+}
+
+table.md-table td {
+	min-width: 32px;
+}
+
+td, th {
+	text-align:center;
+}
+
+table tr {
+    border-top: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+
+table tr th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+
+table tr td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+
+table tr th:first-child,
+table tr td:first-child {
+    margin-top: 0;
+}
+
+table tr th:last-child,
+table tr td:last-child {
+    margin-bottom: 0;
+}
+
+/*箇条書き*/
+ul,
+ol,
+dl{
+    margin: 0.8em 0;
+}
+li {
+	margin: 0.0em 0;
+}
+ul>li, ol>li {
+	line-height: 1.0,
+	padding: 0.0em 0;
+	margin: 0.0em, 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
