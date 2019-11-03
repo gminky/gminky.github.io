@@ -473,23 +473,23 @@ header, .context-menu, .megamenu-content, footer{
 @font-face {
 	fontfamily: "New Serif KR";
 	src: local("New Serif KR"),
-		url('font/NewSerifKR-Regular.woff2') format('woff2'),
-		url('font/NewSerifKR-Regular.woff') format('woff'),
-		url('font/NewSerifKR-Regular.ttf') format('truetype');
+		url('https://gminky.github.io/font/NewSerifKR-Regular.woff2') format('woff2'),
+		url('https://gminky.github.io/font/NewSerifKR-Regular.woff') format('woff'),
+		url('https://gminky.github.io/font/NewSerifKR-Regular.ttf') format('truetype');
 }
 @font-face {
 	fontfamily: "New Sans KR";
 	src: local("New Sans KR"),
-		url('font/NewSansKR-Regular.woff2') format('woff2'),
-		url('font/NewSansKR-Regular.woff') format('woff'),
-		url('font/NewSansKR-Regular.ttf') format('truetype');
+		url('https://gminky.github.io/font/NewSansKR-Regular.woff2') format('woff2'),
+		url('https://gminky.github.io/font/NewSansKR-Regular.woff') format('woff'),
+		url('https://gminky.github.io/font/NewSansKR-Regular.ttf') format('truetype');
 }
 @font-face {
 	fontfamily: "KP CheongPong";
 	src: local("KP CheongPong"),
-		url('font/KPCheongPong.woff2') format('woff2'),
-		url('font/KPCheongPong.woff') format('woff'),
-		url('font/KPCheongPong.ttf') format('truetype');
+		url('https://gminky.github.io/font/KPCheongPong.woff2') format('woff2'),
+		url('https://gminky.github.io/font/KPCheongPong.woff') format('woff'),
+		url('https://gminky.github.io/font/KPCheongPong.ttf') format('truetype');
 }
 body {
 	font-family: 'Charis SIL', 'Source Han Serif', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
