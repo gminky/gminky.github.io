@@ -585,23 +585,15 @@ h6 {
 
 /* 蛍光ペン */
 span.yellow {
-	background: linear-gradient(transparent 60%, #ffff66 60%);
-	}
-span.fotoyellow {
-	background: linear-gradient(transparent 0%, #ffff66 0%);
+	background: linear-gradient(rgba(255,255,90,0) 40%, rgba(255,255,90,90) 60%);
 	}
 span.pink {
-	background: linear-gradient(transparent 60%, #ff66ff 60%);
-	}
-span.futopink {
-	background: linear-gradient(transparent 0%, #ff66ff 0%);
+	background: linear-gradient(rgba(255,140,255,0) 40%, rgba(255,140,255,90) 60%);
 	}
 span.blue {
-	background: linear-gradient(transparent 60%, #66ccff 60%);
+	background: linear-gradient(rgba(102,204,255,0) 40%, rgba(102,204,255,90) 50%);
 	}
-span.futoblue {
-	background: linear-gradient(transparent 0%, #66ccff 0%);
-	}
+
 
 /* その他 */
 @media print {

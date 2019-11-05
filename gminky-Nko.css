@@ -56,25 +56,6 @@ h6 {
 	border-left: solid 5px #fddea5;/*左線（実線 太さ 色）*/
 	}
 
-/* 蛍光ペン */
-span.yellow {
-	background: linear-gradient(transparent 60%, #ffff66 60%);
-	}
-span.fotoyellow {
-	background: linear-gradient(transparent 0%, #ffff66 0%);
-	}
-span.pink {
-	background: linear-gradient(transparent 60%, #ff66ff 60%);
-	}
-span.futopink {
-	background: linear-gradient(transparent 0%, #ff66ff 0%);
-	}
-span.blue {
-	background: linear-gradient(transparent 60%, #66ccff 60%);
-	}
-span.futoblue {
-	background: linear-gradient(transparent 0%, #66ccff 0%);
-	}
 
 /* その他 */
 @media print {
