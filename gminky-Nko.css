@@ -1,3 +1,4 @@
+@charset "utf-8";
 @import url("gminky.css");
 @import url("table.css");
 /* フォント関係 */
@@ -10,7 +11,7 @@ th, h2, h3:before, h4:before, h5:before, h6:before, span.Got {
 	} /* 新綴字法 */
 
 
-/*見出しデザイン*/
+/*見出しデザイン*/
 h1 {
   color: #ffc1e0; /*ffc6e2; 文字色*/
   border-bottom: dashed 2px #ffc1e0; /*線の種類（点線）2px 線色*/
@@ -22,14 +23,14 @@ h2 {
   border-left: solid 5px #ffb2d8; /*左線（実線 太さ 色）*/
   }
 #contents {
-	counter-reset:장 ;
-	counter-reset:조 ;
+	counter-reset:장 ;
+	counter-reset:조 ;
 }
 h2.main {
-	counter-increment:장;
+	counter-increment:장;
 }
 h2.main:before {
-	content:"제"counter(장)"자ᇰ ";
+	content:"제"counter(장)"자ᇰ ";
 }
 
 h3, h4, h5, h6 {
@@ -41,10 +42,10 @@ h3, h4, h5, h6 {
   }
 
 h3.main {
-	counter-increment:조 ;
+	counter-increment:조 ;
 }
 h3.main:before {
-	content:"제"counter(조)"조 ";
+	content:"제"counter(조)"조 ";
 }
 h4 {
 	border-left: solid 5px #ffbcbc;/*左線（実線 太さ 色）*/
@@ -62,4 +63,4 @@ h6 {
 	h1 {
 		page-break-before: always;
 		}
-	}/* h1ごとで頁区切り */
+	}/* h1ごとで頁区切り */
