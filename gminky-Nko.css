@@ -15,7 +15,7 @@ th, h2, h3:before, h4:before, h5:before, h6:before, span.Got {
 h1 {
   color: #ffc1e0; /*ffc6e2; 文字色*/
   border-bottom: dashed 2px #ffc1e0; /*線の種類（点線）2px 線色*/
-    font-family: 'KP CheongPong';
+    font-family: "KP CheongPong";
   }
 h2 {
   padding: 0.2em; /*文字周りの余白*/
