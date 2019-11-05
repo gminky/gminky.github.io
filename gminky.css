@@ -475,21 +475,21 @@ header, .context-menu, .megamenu-content, footer{
 
 /* フォント関係 */
 @font-face {
-	fontfamily: "New Serif KR";
+	font-family: "New Serif KR";
 	src: local("New Serif KR"),
 		url('https://gminky.github.io/font/NewSerifKR-Regular.woff2') format('woff2'),
 		url('https://gminky.github.io/font/NewSerifKR-Regular.woff') format('woff'),
 		url('https://gminky.github.io/font/NewSerifKR-Regular.ttf') format('truetype');
 }
 @font-face {
-	fontfamily: "New Sans KR";
+	font-family: "New Sans KR";
 	src: local("New Sans KR"),
 		url('https://gminky.github.io/font/NewSansKR-Regular.woff2') format('woff2'),
 		url('https://gminky.github.io/font/NewSansKR-Regular.woff') format('woff'),
 		url('https://gminky.github.io/font/NewSansKR-Regular.ttf') format('truetype');
 }
 @font-face {
-	fontfamily: "KP CheongPong";
+	font-family: "KP CheongPong";
 	src: local("KP CheongPong"),
 		url('https://gminky.github.io/font/KPCheongPong.woff2') format('woff2'),
 		url('https://gminky.github.io/font/KPCheongPong.woff') format('woff'),
