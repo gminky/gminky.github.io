@@ -65,8 +65,8 @@ li {
 	margin: 0.0em 0;
 }
 ul>li, ol>li {
-	line-height: 1.0,
-	padding: 0.0em 0;
+	line-height: 1.0;
+	padding: 0.0em, 0;
 	margin: 0.0em, 0;
 }
 li>ol,
@@ -84,3 +84,4 @@ ol:first-child {
 ul:last-child,
 ol:last-child {
     margin-bottom: 0;
+}

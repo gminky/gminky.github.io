@@ -1,8 +1,3 @@
-:root {
-    --side-bar-bg-color: #fafafa;
-    --control-text-color: #777;
-}
-
 /*@font-face {
     font-family: 'Open Sans';
     font-style: normal;
@@ -30,7 +25,19 @@
     font-weight: bold;
     src: local('Open Sans Bold Italic'),url('./github/700i.woff') format('woff');
 }*/
-html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+html {
+    overflow-x: initial !important;
+}
+:root {
+    --bg-color: #ffffff;
+    --text-color:#333333;
+    --select-text-bg-color:#B5D6FC;
+    --select-text-font-color:auto;
+    --monospace:"Lucida Console",Consolas,"Courier",monospace;
+    --side-bar-bg-color:#fafafa;
+    --control-text-color:#777;
+}
+
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
 body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
 iframe { margin: auto; }
@@ -175,9 +182,6 @@ video { max-width: 100%; display: block; margin: 0px auto; }
 iframe { max-width: 100%; width: 100%; border: none; }
 .highlight td, .highlight tr { border: 0px; }
 svg[id^="mermaidChart"] { line-height: 1em; }
-
-
-:root { --side-bar-bg-color: #fafafa; --control-text-color: #777; }
 
 html {
     font-size: 16px;
@@ -557,9 +561,6 @@ h1 {
   color: #ffc1e0; /*ffc6e2; 文字色*/
   border-bottom: dashed 2px #ffc1e0; /*線の種類（点線）2px 線色*/
   }
-h1.wonhwa {
-	font-family: 
-}
 h2 {
   padding: 0.2em; /*文字周りの余白*/
   color: #000000; /*#996b81; 文字色*/
@@ -605,4 +606,3 @@ span.blue {
 p{
   text-indent: 1em;
 }
-<link rel="icon" type="image/gif" href="gif/logo.gif">
