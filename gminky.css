@@ -490,8 +490,7 @@ header, .context-menu, .megamenu-content, footer{
 }
 @font-face {
 	font-family: "KP CheongPong";
-	src: local("KP CheongPong"),
-		url('https://gminky.github.io/font/KPCheongPong.woff2') format('woff2'),
+	src: url('https://gminky.github.io/font/KPCheongPong.woff2') format('woff2'),
 		url('https://gminky.github.io/font/KPCheongPong.woff') format('woff'),
 		url('https://gminky.github.io/font/KPCheongPong.ttf') format('truetype');
 }
