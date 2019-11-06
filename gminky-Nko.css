@@ -26,6 +26,7 @@ h2 {
 #contents {
 	counter-reset:jang ;
 	counter-reset:jo ;
+    counter-reset:je ;
 }
 h2.main {
 	counter-increment:jang;
@@ -48,6 +49,13 @@ h3.main {
 h3.main:before {
 	content:"제"counter(jo)"조 ";
 }
+h3.butim {
+	counter-increment:je ;
+}
+h3.butim:before {
+	content:"제"counter(je)" ";
+}
+
 h4 {
 	border-left: solid 5px #ffbcbc;/*左線（実線 太さ 色）*/
 	}
