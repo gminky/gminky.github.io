@@ -1,2 +1,68 @@
 /* CSS Document */
+/*table*/
+table {
+  border-collapse: collapse; /*隣接するセルのボーダを重ねる*/
+  /*border-spacing: 0px; boder-collapseが separateの場合=ボーダ間の間隔*/
+  width: 100%;
+  overflow: auto; /*テキストがボックスに収まりきらない場合*/
+  break-inside: auto; /*段落途中での改ボックス･ページ*/
+  text-align: left; /*行揃え*/
+  margin: 0.8em 0;
+  padding: 0;
+  word-break: break-all;
+}
+table.md-table td {
+  min-width: 32px;
+}
+td, th {
+  text-align: center; /*行揃え*/
+}
+table tr {
+  /*border-top: 1px solid #dfe2e5;*/
+  margin: 0;
+  padding: 0;
+}
+table tr th {
+  font-weight: bold;
+  border: 1px solid #000000;
+  border-bottom: 0;
+  margin: 0;
+  padding: 6px 13px;
+  background-color: #B5B5B5;
+}
+table tr td {
+  border: 1px solid #000000;
+  margin: 0;
+  padding: 6px 13px;
+}
+table.sennashi tr th, table.sennashi tr td {
+  border: none;
+  background-color: #FFFFFF;
+}
+table tr th:first-child, table tr td:first-child {
+  margin-top: 0;
+}
+table tr th:last-child, table tr td:last-child {
+  margin-bottom: 0;
+}
+/*header*/
 
+
+/*紙設定*/
+.sheet {
+    page-break-after: always;
+}
+@page {
+    size: A4;
+    margin: 0;
+}
+body {
+    counter-reset: sheet;
+}
+.sheet:after {
+    psition: absolute;
+    bottom: 0;
+    right: 0;
+    counter-increment: sheet;
+    content: "ページ " conter(sheet);
+}

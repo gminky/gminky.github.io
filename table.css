@@ -10,6 +10,7 @@ table {
   margin: 0.8em 0;
   padding: 0;
   word-break: initial;
+    table-layout: fixed;
 }
 table.md-table td {
   min-width: 32px;
