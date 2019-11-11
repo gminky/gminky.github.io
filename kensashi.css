@@ -35,6 +35,9 @@ table tr td {
   margin: 0;
   padding: 6px 13px;
 }
+table.sennashi {
+  table-layout: fixed;
+}
 table.sennashi tr th, table.sennashi tr td {
   border: none;
   background-color: #FFFFFF;
@@ -46,23 +49,32 @@ table tr th:last-child, table tr td:last-child {
   margin-bottom: 0;
 }
 /*header*/
-
-
 /*紙設定*/
 .sheet {
-    page-break-after: always;
+  page-break-after: always;
 }
 @page {
-    size: A4;
-    margin: 0;
+  size: A4;
+  margin: 0;
 }
 body {
-    counter-reset: sheet;
+  counter-reset: sheet;
 }
 .sheet:after {
-    psition: absolute;
-    bottom: 0;
-    right: 0;
-    counter-increment: sheet;
-    content: "ページ " conter(sheet);
+  psition: absolute;
+  bottom: 0;
+  right: 0;
+  counter-increment: sheet;
+  content: "ページ "conter(sheet);
+}
+@media screen {
+  body {
+    background: #eee;
+  }
+  .sheet {
+    background: white; /*背景を白く*/
+    box-shadow: 0.5mm 2mm rhba(0, 0, 0, .3);
+    /*ドロップシャドウ*/
+    margin: 5mm;
+  }
 }
