@@ -886,11 +886,11 @@ header, .context-menu, .megamenu-content, footer {
 }
 @font-face {
   font-family: "Source Han Serif";
-  src: local("Source Han Serif"), local("Source Han Serif KR"), local("Source Han Serif JP"), local("Noto Serif CJK"), local("Noto Serif CJK KR"), local("Noto Serif CJK JP"), url("https://github.com/adobe-fonts/source-han-serif/blob/release/OTF/Korean/SourceHanSerifK-Regular.otf") format('opentype');
+  src: local("Source Han Serif"), local("Source Han Serif KR"), local("Source Han Serif JP"), local("Noto Serif CJK"), local("Noto Serif CJK KR"), local("Noto Serif CJK JP"), url("https://github.com/adobe-fonts/source-han-serif/raw/release/OTF/Korean/SourceHanSerifK-Regular.otf") format('opentype');
 }
 @font-face {
   font-family: "Source Han Sans";
-  src: local("Source Han Sans"), local("Source Han Sans K"), local("Source Han Sans J"), local("Noto Sans CJK"), local("Noto Sans CJK KR"), local("Noto Sans CJK JP"), url("https://github.com/adobe-fonts/source-han-sans/blob/release/OTF/Korean/SourceHanSansK-Regular.otf") format('opentype');
+  src: local("Source Han Sans"), local("Source Han Sans K"), local("Source Han Sans J"), local("Noto Sans CJK"), local("Noto Sans CJK KR"), local("Noto Sans CJK JP"), url("https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/Korean/SourceHanSansK-Regular.otf") format('opentype');
 }
 body {
   font-family: 'Charis SIL', 'Source Han Serif', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
