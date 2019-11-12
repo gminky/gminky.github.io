@@ -852,22 +852,22 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Noto Serif JP', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 }
-span[lang=ko] {
+:lang(ko) {
   font-family: 'Noto Serif KR';
 } /* 韓国語 */
-span[lang=ko-KP] {
+:lang(ko-KP) {
   font-family: 'KP CheongPong', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 北 */
-span[lang=ko-KR] {
+:lang(ko-KR) {
   font-family: 'NanumMyeongjo', '나눔명조', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 南 */
-span[lang=ko-CN] {
+:lang(ko-CN) {
   font-family: '한겨레결체', 'Noto Serif SC', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 中 */
-span[lang=ko-Kore] {
+:lang(ko-Kore) {
   font-family: 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 国漢混用 */
-span[lang=ko-Nko] {
+:lang(ko-Nko) {
   font-family: 'New Serif KR', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 新綴字法 */
 .NkoBtg {
@@ -876,10 +876,10 @@ span[lang=ko-Nko] {
 .NkoGot {
   font-family: 'New Sans KR', 'Noto Sans KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 新綴字法 */
-span[lang=ja] {
+:lang(ja) {
   font-family: '游明朝体', 'Noto Serif JP', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 日本語 */
-span[lang=ja-Hrkt] {
+:lang(ja-Hrkt) {
   font-family: 'Meiryo UI', 'IPAmjMincho', 'Noto Serif JP', 'HanaMinA', 'HanaMinB';
 } /* ひらがな+カタカナ */
 .ipa {
