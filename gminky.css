@@ -1,3 +1,4 @@
+@charset "utf-8";
 /*@font-face {
     font-family: 'Open Sans';
     font-style: normal;
@@ -25,6 +26,7 @@
     font-weight: bold;
     src: local('Open Sans Bold Italic'),url('./github/700i.woff') format('woff');
 }*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Noto+Serif+KR&display=swap');
 html {
   overflow-x: initial !important;
 }
@@ -884,7 +886,7 @@ header, .context-menu, .megamenu-content, footer {
   font-family: "KP CheongPong";
   src: local("KP CheongPong"), url('https://gminky.github.io/font/KPCheongPong.woff2') format('woff2'), url('https://gminky.github.io/font/KPCheongPong.woff') format('woff'), url('https://gminky.github.io/font/KPCheongPong.ttf') format('truetype');
 }
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Noto+Serif+KR&display=swap');
+
 
 body {
   font-family: 'Charis SIL', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
