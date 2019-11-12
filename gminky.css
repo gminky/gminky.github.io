@@ -1,32 +1,4 @@
 @charset "utf-8";
-/*@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Open Sans Regular'),url('./github/400.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    font-style: italic;
-    font-weight: normal;
-    src: local('Open Sans Italic'),url('./github/400i.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: bold;
-    src: local('Open Sans Bold'),url('./github/700.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    font-style: italic;
-    font-weight: bold;
-    src: local('Open Sans Bold Italic'),url('./github/700i.woff') format('woff');
-}*/
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Noto+Serif+KR&display=swap');
 html {
   overflow-x: initial !important;
 }
@@ -884,27 +856,27 @@ header, .context-menu, .megamenu-content, footer {
 }
 @font-face {
   font-family: "KP CheongPong";
-  src: local("KP CheongPong"), url('https://gminky.github.io/font/KPCheongPong.woff2') format('woff2'), url('https://gminky.github.io/font/KPCheongPong.woff') format('woff'), url('https://gminky.github.io/font/KPCheongPong.ttf') format('truetype');
+  src: local("KP CheongPong"), local("청봉"), url('https://gminky.github.io/font/KPCheongPong.woff2') format('woff2'), url('https://gminky.github.io/font/KPCheongPong.woff') format('woff'), url('https://gminky.github.io/font/KPCheongPong.ttf') format('truetype');
 }
 
 
 body {
-  font-family: 'Charis SIL', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+  font-family: 'Charis SIL', 'Noto Serif JP', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+  font-family: 'Noto Serif JP', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 }
 span[lang=ko] {
   font-family: 'Noto Serif KR';
 } /* 韓国語 */
 span[lang=ko-KP] {
-  font-family: 'KP CheongPong', '청봉', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+  font-family: 'KP CheongPong', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 北 */
 span[lang=ko-KR] {
   font-family: 'NanumMyeongjo', '나눔명조', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 南 */
 span[lang=ko-CN] {
-  font-family: '한겨레결체', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+  font-family: '한겨레결체','Noto Serif SC', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 中 */
 span[lang=ko-Kore] {
   font-family: 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
@@ -919,10 +891,10 @@ span[lang=ko-Nko] {
   font-family: 'New Sans KR', 'Noto Sans KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 新綴字法 */
 span[lang=ja] {
-  font-family: '游明朝体', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+  font-family: '游明朝体', 'Noto Serif JP', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 日本語 */
 span[lang=ja-Hrkt] {
-  font-family: 'Meiryo UI', 'IPAmjMincho', 'Noto Serif KR', 'HanaMinA', 'HanaMinB';
+  font-family: 'Meiryo UI', 'IPAmjMincho', 'Noto Serif JP', 'HanaMinA', 'HanaMinB';
 } /* ひらがな+カタカナ */
 .ipa {
   font-family: 'Charis SIL';
