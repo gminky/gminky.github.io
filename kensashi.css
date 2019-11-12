@@ -1,11 +1,12 @@
+@charset "utf-8";
 /* CSS Document */
 /*table*/
 table {
-  border-collapse: collapse; /*隣接するセルのボーダを重ねる*/
-  /*border-spacing: 0px; boder-collapseが separateの場合=ボーダ間の間隔*/
+  border-collapse: collapse; /*隣接するセルのボーダを重ねる*/
+  /*border-spacing: 0px; boder-collapseが separateの場合=ボーダ間の間隔*/
   width: 100%;
-  overflow: auto; /*テキストがボックスに収まりきらない場合*/
-  break-inside: auto; /*段落途中での改ボックス･ページ*/
+  overflow: auto; /*テキストがボックスに収まりきらない場合*/
+  break-inside: auto; /*段落途中での改ボックス･ページ*/
   text-align: left; /*行揃え*/
   margin: 0.8em 0;
   padding: 0;
@@ -65,7 +66,7 @@ body {
   bottom: 0;
   right: 0;
   counter-increment: sheet;
-  content: "ページ "conter(sheet);
+  content: "ページ "conter(sheet);
 }
 @media screen {
   body {
@@ -74,7 +75,7 @@ body {
   .sheet {
     background: white; /*背景を白く*/
     box-shadow: 0.5mm 2mm rhba(0, 0, 0, .3);
-    /*ドロップシャドウ*/
+    /*ドロップシャドウ*/
     margin: 5mm;
   }
 }

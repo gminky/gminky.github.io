@@ -8,7 +8,7 @@ body, h3, h4, h5, h6 {
 th, h2, h3:before, h4:before, h5:before, h6:before, span.Got {
   font-family: 'New Sans KR', 'Noto Sans KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 新綴字法 */
-/*見出しデザイン*/
+/*見出しデザイン*/
 h1 {
   color: #ffc1e0; /*ffc6e2; 文字色*/
   border-bottom: dashed 2px #ffc1e0; /*線の種類（点線）2px 線色*/
@@ -29,7 +29,7 @@ h2.main {
   counter-increment: jang;
 }
 h2.main:before {
-  content: "제"counter(jang)"자ᇰ ";
+  content: "제"counter(jang)"자ᇰ ";
 }
 h3, h4, h5, h6 {
   padding: 0.1em; /*文字周りの余白*/
@@ -42,13 +42,13 @@ h3.main {
   counter-increment: jo;
 }
 h3.main:before {
-  content: "제"counter(jo)"조 ";
+  content: "제"counter(jo)"조 ";
 }
 h3.butim {
   counter-increment: je;
 }
 h3.butim:before {
-  content: "제"counter(je)" ";
+  content: "제"counter(je)" ";
 }
 h4 {
   border-left: solid 5px #ffbcbc; /*左線（実線 太さ 色）*/
@@ -64,4 +64,4 @@ h6 {
   h1 {
     page-break-before: always;
   }
-} /* h1ごとで頁区切り */
+} /* h1ごとで頁区切り */
