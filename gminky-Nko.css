@@ -3,10 +3,10 @@
 @import url("table.css");
 /* フォント関係 */
 body, h3, h4, h5, h6 {
-  font-family: 'New Serif KR', 'Source Han Serif', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+  font-family: 'New Serif KR', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 新綴字法 */
 th, h2, h3:before, h4:before, h5:before, h6:before, span.Got {
-  font-family: 'New Sans KR', 'Source Han Sans', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+  font-family: 'New Sans KR', 'Noto Sans KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 新綴字法 */
 /*見出しデザイン*/
 h1 {

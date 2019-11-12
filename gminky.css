@@ -882,51 +882,45 @@ header, .context-menu, .megamenu-content, footer {
 }
 @font-face {
   font-family: "KP CheongPong";
-  src: url('https://gminky.github.io/font/KPCheongPong.woff2') format('woff2'), url('https://gminky.github.io/font/KPCheongPong.woff') format('woff'), url('https://gminky.github.io/font/KPCheongPong.ttf') format('truetype');
+  src: local("KP CheongPong"), url('https://gminky.github.io/font/KPCheongPong.woff2') format('woff2'), url('https://gminky.github.io/font/KPCheongPong.woff') format('woff'), url('https://gminky.github.io/font/KPCheongPong.ttf') format('truetype');
 }
-@font-face {
-  font-family: "Source Han Serif";
-  src: local("Source Han Serif"), local("Source Han Serif KR"), local("Source Han Serif JP"), local("Noto Serif CJK"), local("Noto Serif CJK KR"), local("Noto Serif CJK JP"), url("https://github.com/adobe-fonts/source-han-serif/raw/release/OTF/Korean/SourceHanSerifK-Regular.otf") format('opentype');
-}
-@font-face {
-  font-family: "Source Han Sans";
-  src: local("Source Han Sans"), local("Source Han Sans K"), local("Source Han Sans J"), local("Noto Sans CJK"), local("Noto Sans CJK KR"), local("Noto Sans CJK JP"), url("https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/Korean/SourceHanSansK-Regular.otf") format('opentype');
-}
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Noto+Serif+KR&display=swap');
+
 body {
-  font-family: 'Charis SIL', 'Source Han Serif', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+  font-family: 'Charis SIL', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Source Han Serif', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+  font-family: 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 }
 span[lang=ko] {
-  font-family: 'Source Han Serif';
+  font-family: 'Noto Serif KR';
 } /* 韓国語 */
 span[lang=ko-KP] {
-  font-family: 'KP CheongPong', '청봉', 'Source Han Serif', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+  font-family: 'KP CheongPong', '청봉', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 北 */
 span[lang=ko-KR] {
-  font-family: 'NanumMyeongjo', '나눔명조', 'Source Han Serif', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+  font-family: 'NanumMyeongjo', '나눔명조', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 南 */
 span[lang=ko-CN] {
-  font-family: '한겨레결체', 'Source Han Serif', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+  font-family: '한겨레결체', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 中 */
 span[lang=ko-Kore] {
-  font-family: 'Source Han Serif', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+  font-family: 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 国漢混用 */
 span[lang=ko-Nko] {
-  font-family: 'New Serif KR', 'Source Han Serif', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+  font-family: 'New Serif KR', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 新綴字法 */
 .NkoBtg {
-  font-family: 'New Serif KR', 'Source Han Serif', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+  font-family: 'New Serif KR', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 新綴字法 */
 .NkoGot {
-  font-family: 'New Sans KR', 'Source Han Sans', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+  font-family: 'New Sans KR', 'Noto Sans KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 新綴字法 */
 span[lang=ja] {
-  font-family: '游明朝体', 'Source Han Serif', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+  font-family: '游明朝体', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 日本語 */
 span[lang=ja-Hrkt] {
-  font-family: 'Meiryo UI', 'IPAmjMincho', 'Source Han Serif', 'HanaMinA', 'HanaMinB';
+  font-family: 'Meiryo UI', 'IPAmjMincho', 'Noto Serif KR', 'HanaMinA', 'HanaMinB';
 } /* ひらがな+カタカナ */
 .ipa {
   font-family: 'Charis SIL';
