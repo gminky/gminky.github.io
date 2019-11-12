@@ -1,0 +1,22 @@
+/* CSS Document */
+
+@font-face {
+  font-family: "New Serif KR";
+  src: local("New Serif KR"), url('https://gminky.github.io/font/NewSerifKR-Regular.woff2') format('woff2'), url('https://gminky.github.io/font/NewSerifKR-Regular.woff') format('woff'), url('https://gminky.github.io/font/NewSerifKR-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: "New Sans KR";
+  src: local("New Sans KR"), url('https://gminky.github.io/font/NewSansKR-Regular.woff2') format('woff2'), url('https://gminky.github.io/font/NewSansKR-Regular.woff') format('woff'), url('https://gminky.github.io/font/NewSansKR-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: "KP CheongPong";
+  src: local("KP CheongPong"), local("청봉"), url('https://gminky.github.io/font/KPCheongPong.woff2') format('woff2'), url('https://gminky.github.io/font/KPCheongPong.woff') format('woff'), url('https://gminky.github.io/font/KPCheongPong.ttf') format('truetype');
+}
+@font-face {
+  font-family: "'Noto Serif KR";
+  src: local("Noto Serif KR"), url('https://gminky.github.io/font/SourceHanSerifK-Regular.woff2') format('woff2'), url('https://gminky.github.io/font/SourceHanSerifK-Regular.woff') format('woff'), url('https://gminky.github.io/font/SourceHanSerifK-Regular.ttf') format('truetype'),local("Noto Serif JP"), local("Source Han Serif"), local("Source Han Serif K");
+}
+@font-face {
+  font-family: "'Noto Sans KR";
+  src: local("Noto Sans KR"), url('https://gminky.github.io/font/SourceHanSansK-Regular.woff2') format('woff2'), url('https://gminky.github.io/font/SourceHanSansK-Regular.woff') format('woff'), url('https://gminky.github.io/font/SourceHanSansK-Regular.ttf') format('truetype'),local("Noto Sans JP"), local("Source Han Sans"), local("Source Han Sans K");
+}

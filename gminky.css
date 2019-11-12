@@ -846,20 +846,6 @@ header, .context-menu, .megamenu-content, footer {
   background: #999;
 }
 /* フォント関係 */
-@font-face {
-  font-family: "New Serif KR";
-  src: local("New Serif KR"), url('https://gminky.github.io/font/NewSerifKR-Regular.woff2') format('woff2'), url('https://gminky.github.io/font/NewSerifKR-Regular.woff') format('woff'), url('https://gminky.github.io/font/NewSerifKR-Regular.ttf') format('truetype');
-}
-@font-face {
-  font-family: "New Sans KR";
-  src: local("New Sans KR"), url('https://gminky.github.io/font/NewSansKR-Regular.woff2') format('woff2'), url('https://gminky.github.io/font/NewSansKR-Regular.woff') format('woff'), url('https://gminky.github.io/font/NewSansKR-Regular.ttf') format('truetype');
-}
-@font-face {
-  font-family: "KP CheongPong";
-  src: local("KP CheongPong"), local("청봉"), url('https://gminky.github.io/font/KPCheongPong.woff2') format('woff2'), url('https://gminky.github.io/font/KPCheongPong.woff') format('woff'), url('https://gminky.github.io/font/KPCheongPong.ttf') format('truetype');
-}
-
-
 body {
   font-family: 'Charis SIL', 'Noto Serif JP', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 }
@@ -876,7 +862,7 @@ span[lang=ko-KR] {
   font-family: 'NanumMyeongjo', '나눔명조', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 南 */
 span[lang=ko-CN] {
-  font-family: '한겨레결체','Noto Serif SC', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+  font-family: '한겨레결체', 'Noto Serif SC', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 中 */
 span[lang=ko-Kore] {
   font-family: 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
