@@ -847,7 +847,7 @@ header, .context-menu, .megamenu-content, footer {
 }
 /* フォント関係 */
 body {
-  font-family: 'Charis SIL', 'Noto Serif JP', 'IPAmjMincho', 'HanaMinA', 'HanaMinB','Georgia', 'Times New Roman', 'Times', 'serif';
+  font-family: 'Charis SIL', 'Noto Serif JP', 'IPAmjMincho', 'HanaMinA', 'HanaMinB', 'Georgia', 'Times New Roman', 'Times', 'serif';
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Charis SIL', 'Noto Sans JP', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
@@ -855,52 +855,52 @@ h1, h2, h3, h4, h5, h6 {
 /* 韓国語 */ :lang(ko) {
   font-family: 'Noto Serif KR';
 }
-:lang(ko).Gothic,h1:lang(ko), h2:lang(ko), h3:lang(ko), h4:lang(ko), h5:lang(ko), h6:lang(ko) {
-    font-family:'Noto Sans KR';
+:lang(ko).Gothic, h1:lang(ko), h2:lang(ko), h3:lang(ko), h4:lang(ko), h5:lang(ko), h6:lang(ko) {
+  font-family: 'Noto Sans KR';
 }
 /* 北 */ :lang(ko-KP) {
   font-family: 'KP CheongPong', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 }
-:lang(ko-KP).Gothic,h1:lang(ko-KP), h2:lang(ko-KP), h3:lang(ko-KP), h4:lang(ko-KP), h5:lang(ko-KP), h6:lang(ko-KP) {
-    font-family: 'KP CheonRiMa', 'Noto Sans KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+:lang(ko-KP).Gothic, h1:lang(ko-KP), h2:lang(ko-KP), h3:lang(ko-KP), h4:lang(ko-KP), h5:lang(ko-KP), h6:lang(ko-KP) {
+  font-family: 'KP CheonRiMa', 'Noto Sans KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 }
 /* 南 */ :lang(ko-KR) {
-  font-family: 'NanumMyeongjo', '나눔명조', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+  font-family: 'NanumMyeongjo', '나눔명조', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 }
-:lang(ko-KR).Gothic,h1:lang(ko-KR), h2:lang(ko-KR), h3:lang(ko-KR), h4:lang(ko-KR), h5:lang(ko-KR), h6:lang(ko-KR) {
-  font-family: 'NanumGothic', '나눔고딕', 'Noto Sans KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+:lang(ko-KR).Gothic, h1:lang(ko-KR), h2:lang(ko-KR), h3:lang(ko-KR), h4:lang(ko-KR), h5:lang(ko-KR), h6:lang(ko-KR) {
+  font-family: 'NanumGothic', '나눔고딕', 'Noto Sans KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 }
 /* 中 */ :lang(ko-CN) {
-  font-family: '한겨레결체', 'Noto Serif SC', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+  font-family: '한겨레결체', 'Noto Serif SC', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 }
-:lang(ko-CN).Gothic,h1:lang(ko-CN), h2:lang(ko-CN), h3:lang(ko-CN), h4:lang(ko-CN), h5:lang(ko-CN), h6:lang(ko-CN) {
+:lang(ko-CN).Gothic, h1:lang(ko-CN), h2:lang(ko-CN), h3:lang(ko-CN), h4:lang(ko-CN), h5:lang(ko-CN), h6:lang(ko-CN) {
   font-family: 'Noto Sans SC', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 }
 /* 国漢混用 */ :lang(ko-Kore) {
   font-family: 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 }
-:lang(ko-Kore).Gothic,h1:lang(ko-Kore), h2:lang(ko-Kore), h3:lang(ko-Kore), h4:lang(ko-Kore), h5:lang(ko-Kore), h6:lang(ko-Kore) {
+:lang(ko-Kore).Gothic, h1:lang(ko-Kore), h2:lang(ko-Kore), h3:lang(ko-Kore), h4:lang(ko-Kore), h5:lang(ko-Kore), h6:lang(ko-Kore) {
   font-family: 'Noto Sans KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 }
 /* 新綴字法 */ :lang(ko-Nko) {
   font-family: 'New Serif KR', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 }
-:lang(ko-Nko).Gothic,h1:lang(ko-Nko), h2:lang(ko-Nko), h3:lang(ko-Nko), h4:lang(ko-Nko), h5:lang(ko-Nko), h6:lang(ko-Nko) {
+:lang(ko-Nko).Gothic, h1:lang(ko-Nko), h2:lang(ko-Nko), h3:lang(ko-Nko), h4:lang(ko-Nko), h5:lang(ko-Nko), h6:lang(ko-Nko) {
   font-family: 'New Sans KR', 'Noto Sans KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 } /* 新綴字法 */
 /* 日本語 */ :lang(ja) {
   font-family: '游明朝体', 'Noto Serif JP', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 }
-:lang(ja).Gothic,h1:lang(ja), h2:lang(ja), h3:lang(ja), h4:lang(ja), h5:lang(ja), h6:lang(ja) {
-  font-family: '游ゴシック', 'Noto Sans JP', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+:lang(ja).Gothic, h1:lang(ja), h2:lang(ja), h3:lang(ja), h4:lang(ja), h5:lang(ja), h6:lang(ja) {
+  font-family: '游ゴシック', 'Noto Sans JP', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 }
-/* ひらがな+カタカナ */ :lang(ja-Hrkt) {
+/* ひらがな+カタカナ */ :lang(ja-Hrkt) {
   font-family: 'Meiryo UI', 'IPAmjMincho', 'Noto Serif JP', 'HanaMinA', 'HanaMinB';
 }
 .ipa {
   font-family: 'Charis SIL';
 }
-/*見出しデザイン*/
+/*見出しデザイン*/
 h1 {
   color: #ffc1e0; /*ffc6e2; 文字色*/
   border-bottom: dashed 2px #ffc1e0; /*線の種類（点線）2px 線色*/
@@ -927,7 +927,7 @@ h5 {
 h6 {
   border-left: solid 5px #fddea5; /*左線（実線 太さ 色）*/
 }
-/* 蛍光ペン */
+/* 蛍光ペン */
 span.yellow {
   background: linear-gradient(rgba(255, 255, 90, 0) 40%, rgba(255, 255, 90, 90) 60%);
 }
@@ -942,7 +942,7 @@ span.blue {
   h1 {
     page-break-before: always;
   }
-} /* h1ごとで頁区切り */
+} /* h1ごとで頁区切り */
 p {
   text-indent: 1em;
 }

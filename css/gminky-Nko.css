@@ -9,7 +9,7 @@ th:lang(ko-Nko), h2:lang(ko-Nko), h3:lang(ko-Nko)::before, span.Got:lang(ko-Nko)
   font-family: 'New Sans KR', 'Noto Sans KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 }
 h1:lang(ko-Nko) {
-    font-family: 'KP CheongPong';
+  font-family: 'KP CheongPong';
 }
 /*見出しデザイン*/
 h1 {
