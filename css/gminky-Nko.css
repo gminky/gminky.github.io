@@ -2,12 +2,15 @@
 @import url("gminky.css");
 @import url("table.css");
 /* フォント関係 */
-body, h3, h4, h5, h6 {
+h3:lang(ko-Nko), h4:lang(ko-Nko), h5:lang(ko-Nko), h6:lang(ko-Nko) {
   font-family: 'New Serif KR', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
-} /* 新綴字法 */
-th, h2, h3:before, h4:before, h5:before, h6:before, span.Got {
+}
+th:lang(ko-Nko), h2:lang(ko-Nko), h3:lang(ko-Nko)::before, span.Got:lang(ko-Nko) {
   font-family: 'New Sans KR', 'Noto Sans KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
-} /* 新綴字法 */
+}
+h1:lang(ko-Nko) {
+    font-family: 'KP CheongPong';
+}
 /*見出しデザイン*/
 h1 {
   color: #ffc1e0; /*ffc6e2; 文字色*/

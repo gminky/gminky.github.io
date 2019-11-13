@@ -11,7 +11,11 @@
 }
 @font-face {
   font-family: "KP CheongPong";
-  src: local("KP CheongPong"), local("청봉"), url('https://gminky.github.io/font/KPCheongPong.woff2') format('woff2'), url('https://gminky.github.io/font/KPCheongPong.woff') format('woff'), url('https://gminky.github.io/font/KPCheongPong.ttf') format('truetype');
+  src: local("KP CheongPong"), local("청봉"), url('https://gminky.github.io/font/KPCheongPong.woff2') format('woff2'), url('https://gminky.github.io/font/KPCheongPong.woff') format('woff'), url('https://gminky.github.io/font/KPCheongPong.ttf') format('truetype');
+}
+@font-face {
+  font-family: "KP CheonRiMa";
+  src: local("KP CheonRiMa"), local("천리마"), url('https://gminky.github.io/font/KPCheonRiMa.woff2') format('woff2'), url('https://gminky.github.io/font/KPCheonRiMa.woff') format('woff'), url('https://gminky.github.io/font/KPCheonRiMa.ttf') format('truetype');
 }
 @font-face {
   font-family: "'Noto Serif KR";
