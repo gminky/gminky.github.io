@@ -5,7 +5,7 @@
 h3:lang(ko-Nko), h4:lang(ko-Nko), h5:lang(ko-Nko), h6:lang(ko-Nko) {
   font-family: 'New Serif KR', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 }
-th:lang(ko-Nko), h2:lang(ko-Nko), h3:lang(ko-Nko)::beforeN {
+th:lang(ko-Nko), h2:lang(ko-Nko), h3:lang(ko-Nko)::before {
   font-family: 'New Sans KR', 'Noto Sans KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 }
 h1:lang(ko-Nko) {
