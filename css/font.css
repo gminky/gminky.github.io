@@ -10,11 +10,11 @@
 }
 @font-face {
   font-family: "KP CheongPong";
-  src: local("KP CheongPong"), local("청봉"), url('https://gminky.github.io/font/KPCheongPong.woff2') format('woff2'), url('https://gminky.github.io/font/KPCheongPong.woff') format('woff'), url('https://gminky.github.io/font/KPCheongPong.ttf') format('truetype');
+  src: local("KP CheongPong"), local("청봉"), url('https://gminky.github.io/font/KPCheongPong.woff2') format('woff2'), url('https://gminky.github.io/font/KPCheongPong.woff') format('woff'), url('https://gminky.github.io/font/KPCheongPong.ttf') format('truetype');
 }
 @font-face {
   font-family: "KP CheonRiMa";
-  src: local("KP CheonRiMa"), local("천리마"), url('https://gminky.github.io/font/KPCheonRiMa.woff2') format('woff2'), url('https://gminky.github.io/font/KPCheonRiMa.woff') format('woff'), url('https://gminky.github.io/font/KPCheonRiMa.ttf') format('truetype');
+  src: local("KP CheonRiMa"), local("천리마"), url('https://gminky.github.io/font/KPCheonRiMa.woff2') format('woff2'), url('https://gminky.github.io/font/KPCheonRiMa.woff') format('woff'), url('https://gminky.github.io/font/KPCheonRiMa.ttf') format('truetype');
 }
 @font-face {
   font-family: "'Noto Serif KR";
@@ -23,4 +23,3 @@
 @font-face {
   font-family: "'Noto Sans KR";
   src: local("Noto Sans KR"), local("Noto Sans JP"), local("Source Han Sans"), local("Source Han Sans K"), url('https://gminky.github.io/font/SourceHanSansK-Regular.woff2') format('woff2'), url('https://gminky.github.io/font/SourceHanSansK-Regular.woff') format('woff'), url('https://gminky.github.io/font/SourceHanSansK-Regular.ttf') format('truetype');
-}
