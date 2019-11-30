@@ -1,0 +1,67 @@
+@charset "utf-8";
+body, h1, h2, h3, h4, h5, h6, p {
+  font-size: 10pt;
+  font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif";
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+}
+/*法令名*/
+h1:before {
+  text-indent: 3em;
+}
+/*目次*/
+.mokuji0 {}
+.mokuji1 {
+  text-indent: -4em;
+  padding-left: 5em;
+}
+.mokuji2 {
+  text-indent: -4em;
+  padding-left: 6em;
+}
+.mokuji3 {
+  text-indent: -4em;
+  padding-left: 7em;
+}
+.mokuji4 {
+  text-indent: -4em;
+  padding-left: 8em;
+}
+/*標題*/
+.hyoudai {
+  font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+  font-weight: bold;
+  padding-right: 1em;
+}
+/*章・節*/
+.shou, .setsu {
+  text-indent: -4em;
+    padding-left: 7em;
+}
+
+/*条*/
+.kyoutsuumidashi {
+  padding-left: 1em;
+}
+.jou {}
+.sotomidashi {
+  text-indent: 0em;
+  padding-left: 1em;
+}
+.uchimidashi {
+    text-indent: 0em;
+}
+.kou {
+  text-indent: -1em;
+  padding-left: 1em;
+}
+.gou {
+    text-indent: -1em;
+    padding-left: 2em;
+}
+/*その他*/
+.chushaku {
+  color: blue;
+  font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+}
