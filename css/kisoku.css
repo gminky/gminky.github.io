@@ -69,9 +69,11 @@ h1 {
   color: blue;
   font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
 }
+a {
+  color: blue;
+}
 a:link, a:visited, a:hover, a:active {
   text-decoration-line: none;
-    color: blue;
 }
 a:hover {
   text-decoration-line: underline;
@@ -85,13 +87,16 @@ a:hover {
   .chushaku {
     color: orange;
   }
-  a:link, a:visited, a:hover, a:active {
+  a {
     color: greenyellow;
   }
 }
 @media print {
-  body, h1, h2, h3, h4, h5, h6, p {
+  body, h1, h2, h3, h4, h5, h6, p, a {
     color: black;
+  }
+  .chushaku {
+    color: #747474;
   }
 }
 @page {
