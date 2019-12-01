@@ -69,6 +69,13 @@ h1 {
   color: blue;
   font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
 }
+a:link, a:visited, a:hover, a:active {
+  text-decoration-line: none;
+    color: blue;
+}
+a:hover {
+  text-decoration-line: underline;
+}
 /*media*/
 @media screen and (prefers-color-scheme: dark) {
   body, h1, h2, h3, h4, h5, h6, p {
@@ -82,7 +89,12 @@ h1 {
     color: greenyellow;
   }
 }
+@media print {
+  body, h1, h2, h3, h4, h5, h6, p {
+    color: black;
+  }
+}
 @page {
   size: A4;
-    margin: 2cm;
+  margin: 1.5cm;
 }
