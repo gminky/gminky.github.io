@@ -1,14 +1,15 @@
 @charset "utf-8";
 body, h1, h2, h3, h4, h5, h6, p {
-  font-size: 10pt;
+  font-size: 11pt;
   font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif";
   font-style: normal;
   font-weight: normal;
   margin: 0;
 }
 /*法令名*/
-h1:before {
+h1 {
   text-indent: 3em;
+  padding-top: 1em;
 }
 /*目次*/
 .mokuji0 {}
@@ -31,15 +32,14 @@ h1:before {
 /*標題*/
 .hyoudai {
   font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
-  font-weight: bold;
+  font-weight: normal;
   padding-right: 1em;
 }
 /*章・節*/
 .shou, .setsu {
   text-indent: -4em;
-    padding-left: 7em;
+  padding-left: 7em;
 }
-
 /*条*/
 .kyoutsuumidashi {
   padding-left: 1em;
@@ -50,18 +50,39 @@ h1:before {
   padding-left: 1em;
 }
 .uchimidashi {
-    text-indent: 0em;
+  text-indent: 0em;
 }
 .kou {
   text-indent: -1em;
   padding-left: 1em;
 }
 .gou {
-    text-indent: -1em;
-    padding-left: 2em;
+  text-indent: -1em;
+  padding-left: 2em;
+}
+.iroha {
+  text-indent: -1em;
+  padding-left: 3em;
 }
 /*その他*/
 .chushaku {
   color: blue;
   font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+}
+/*media*/
+@media screen and (prefers-color-scheme: dark) {
+  body, h1, h2, h3, h4, h5, h6, p {
+    color: white;
+    background: black;
+  }
+  .chushaku {
+    color: orange;
+  }
+  a:link, a:visited, a:hover, a:active {
+    color: greenyellow;
+  }
+}
+@page {
+  size: A4;
+    margin: 2cm;
 }
