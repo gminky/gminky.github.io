@@ -1,10 +1,34 @@
 @charset "utf-8";
-body, h1, h2, h3, h4, h5, h6, p {
+:root {
+  --bg: white;
+  --letter: black;
+  --chushaku: blue;
+  --link: blue;
+}
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --bg: black;
+    --letter: white;
+    --chushaku: orange;
+    --link: greenyellow;
+  }
+}
+@media print {
+  :root {
+    --bg: white;
+    --letter: black;
+    --chushaku: #747474;
+    --link: black;
+  }
+}
+body, h1, h2, h3, h4, h5, h6, p, a {
   font-size: 11pt;
   font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif";
   font-style: normal;
   font-weight: normal;
   margin: 0;
+  background: var(--bg);
+  color: var(--letter);
 }
 /*法令名*/
 h1 {
@@ -65,40 +89,18 @@ h1 {
   padding-left: 3em;
 }
 /*その他*/
-.chushaku {
-  color: blue;
-  font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
-}
 a {
-  color: blue;
-}
-a:link, a:visited, a:hover, a:active {
+  color: var(--link);
   text-decoration-line: none;
 }
 a:hover {
   text-decoration-line: underline;
 }
+.chushaku {
+  color: var(--chushaku);
+  font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+}
 /*media*/
-@media screen and (prefers-color-scheme: dark) {
-  body, h1, h2, h3, h4, h5, h6, p {
-    color: white;
-    background: black;
-  }
-  .chushaku {
-    color: orange;
-  }
-  a {
-    color: greenyellow;
-  }
-}
-@media print {
-  body, h1, h2, h3, h4, h5, h6, p, a {
-    color: black;
-  }
-  .chushaku {
-    color: #747474;
-  }
-}
 @page {
   size: A4;
   margin: 1.5cm;
