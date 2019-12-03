@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/*横書き用 条文スタイル*/
+.LawBody {
+	font-family: "Source Han Serif";
+}
+.LawNum,
+.LawTitle,
+.PartTitle,
+.ChapterTitle,
+.SectionTitle,
+.SubsectionTitle,
+.DivisionTitle,
+.ArticleTitle,
+.ParagraphNum,
+.ItemTitle,
+.Subitem1Title,
+.Subitem2Title,
+.Subitem3Title,
+.Subitem4Title,
+.Subitem5Title,
+.Subitem6Title,
+.Subitem7Title,
+.Subitem8Title,
+.Subitem9Title,
+.Subitem10Title,
+.SupplProvisionLabel,
+.AppdxTableTitle,
+.AppdxStyleTitle,
+.AppdxFigTitle,
+.AppdxFormatTitle,
+.AppdxNoteTitle,
+.ArithFormulaNum,
+.SupplProvisionAppdxStyleTitle,
+.SupplProvisionAppdxTableTitle {
+	font-weight:normal;
+}
+.LawNum, .LawTitle, .PartTitle, .ChapterTitle, .SectionTitle, .SubsectionTitle, .DivisionTitle, .ArticleTitle, .Subitem2Title, .Subitem3Title, .Subitem4Title, .Subitem5Title, .Subitem6Title, .Subitem7Title, .Subitem8Title, .Subitem9Title, .Subitem10Title, .SupplProvisionLabel, .AppdxTableTitle, .AppdxStyleTitle, .AppdxFigTitle, .AppdxFormatTitle, .AppdxNoteTitle, .ArithFormulaNum, .SupplProvisionAppdxStyleTitle, .SupplProvisionAppdxTableTitle {
+	font-family: "Source Han Gothic";
+}
+
+a {
+	text-decoration: underline;
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #black;
+}
