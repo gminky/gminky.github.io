@@ -1,4 +1,17 @@
 @charset "utf-8";
+:root {
+  --tr-nth-color: #f8f8f8;
+  --table-border-color: #dfe2e5;
+}
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --tr-nth-color: #303030;
+    --table-border-color: #505050;
+  }
+}
+@media print {
+  :root {}
+}
 /* CSS Document */
 /*table関連*/
 table {
@@ -20,22 +33,22 @@ td, th {
   text-align: center;
 }
 table tr {
-  border-top: 1px solid #dfe2e5;
+  border-top: 1px solid var(--table-border-color);
   margin: 0;
   padding: 0;
 }
 table tr:nth-child(2n), thead {
-  background-color: #f8f8f8;
+  background-color: var(--tr-nth-color);
 }
 table tr th {
   font-weight: bold;
-  border: 1px solid #dfe2e5;
+  border: 1px solid var(--table-border-color);
   border-bottom: 0;
   margin: 0;
   padding: 6px 13px;
 }
 table tr td {
-  border: 1px solid #dfe2e5;
+  border: 1px solid var(--table-border-color);
   margin: 0;
   padding: 6px 13px;
 }
