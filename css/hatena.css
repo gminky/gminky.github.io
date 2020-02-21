@@ -1,8 +1,13 @@
-/* CSS Document */
-@charset "utf-8";
+/* <system section="theme" selected="life"> */
+@import "/css/theme/life/life.css";
+/* </system> */
+
+/* <system section="background" selected="default"> */
+/* default */
+/* </system> */
 
 /* 印刷用 */
-<link href="font.css" rel="stylesheet">
+<link href="https://gminky.github.io/css/font.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Noto+Serif+JP&display=swap&subset=japanese" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Noto+Serif+KR&display=swap&subset=korean" rel="stylesheet">
 @media print{
@@ -54,3 +59,5 @@ h5 {
 h6 {
 	border-left: solid 5px #fddea5;/*左線（実線 太さ 色）*/
 	}
+
+<link rel="stylesheet" type="text/css" href="https://gminky.github.io/css/hatena.css">
