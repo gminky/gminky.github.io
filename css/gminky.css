@@ -485,7 +485,12 @@ span.blue {
   h1 {
     page-break-before: always;
   }
-} /* h1ごとで頁区切り */
+}
+/* h1ごとで頁区切り */
 p {
   text-indent: 1em;
+}
+/*横並びリスト*/
+.inline {
+    display: inline-block;
 }
