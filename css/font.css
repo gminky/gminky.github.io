@@ -18,9 +18,9 @@
 }
 @font-face {
   font-family: "'Noto Serif KR";
-  src: local("Noto Serif KR"), local("Noto Serif JP"), local("Source Han Serif"), local("Source Han Serif K"), url('https://gminky.github.io/font/SourceHanSerifK-Regular.woff2') format('woff2'), url('https://gminky.github.io/font/SourceHanSerifK-Regular.woff') format('woff'), url('https://gminky.github.io/font/SourceHanSerifK-Regular.ttf') format('truetype');
+  src: local("Noto Serif KR"), local("Noto Serif CJK KR"), local("Noto Serif JP"), local("Source Han Serif"), local("Source Han Serif K"), url('https://gminky.github.io/font/SourceHanSerifK-Regular.woff2') format('woff2'), url('https://gminky.github.io/font/SourceHanSerifK-Regular.woff') format('woff'), url('https://gminky.github.io/font/SourceHanSerifK-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: "'Noto Sans KR";
-  src: local("Noto Sans KR"), local("Noto Sans JP"), local("Source Han Sans"), local("Source Han Sans K"), url('https://gminky.github.io/font/SourceHanSansK-Regular.woff2') format('woff2'), url('https://gminky.github.io/font/SourceHanSansK-Regular.woff') format('woff'), url('https://gminky.github.io/font/SourceHanSansK-Regular.ttf') format('truetype');
+  src: local("Noto Sans KR"), local("Noto Sans CJK KR"), local("Noto Sans JP"), local("Source Han Sans"), local("Source Han Sans K"), url('https://gminky.github.io/font/SourceHanSansK-Regular.woff2') format('woff2'), url('https://gminky.github.io/font/SourceHanSansK-Regular.woff') format('woff'), url('https://gminky.github.io/font/SourceHanSansK-Regular.ttf') format('truetype');
 }
