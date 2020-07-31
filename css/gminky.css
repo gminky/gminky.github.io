@@ -87,9 +87,13 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
-button, input, select, textarea {
+button, input, select {
   color: inherit;
   font: inherit;
+}
+textarea {
+  background-color:var(--bg-color);
+  color: var(--text-color);
 }
 input[type="checkbox"], input[type="radio"] {
   line-height: normal;
