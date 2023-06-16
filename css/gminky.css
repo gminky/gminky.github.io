@@ -389,21 +389,25 @@ code {
 .on-focus-mode blockquote {
   border-left-color: rgba(85, 85, 85, 0.12);
 }
-header, .context-menu, .megamenu-content, footer {
-  font-family: "Segoe UI", "Arial", sans-serif;
-}
 /* フォント関係 */
-body {
+
+html, body {
   font-family: 'Charis SIL', 'Noto Serif JP', 'IPAmjMincho', 'HanaMinA', 'HanaMinB', 'Georgia', 'Times New Roman', 'Times', 'serif';
+  &[lang="ko"] {
+    font-family: 'Charis SIL', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB', 'Georgia', 'Times New Roman', 'Times', 'serif';
+  }
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Charis SIL', 'Noto Sans JP', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
+header, .context-menu, .megamenu-content, footer, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Charis SIL', 'Noto Sans JP', 'IPAmjMincho', 'HanaMinA', 'HanaMinB', "Segoe UI", "Arial", sans-serif;
+  &[lang="ko"] {
+    font-family: 'Charis SIL', 'Noto Sans KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB', "Segoe UI", "Arial", sans-serif;
+  }
 }
 /* 韓国語 */ :lang(ko) {
-  font-family: 'Noto Serif KR';
+  font-family: 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 }
-:lang(ko).Gothic, h1:lang(ko), h2:lang(ko), h3:lang(ko), h4:lang(ko), h5:lang(ko), h6:lang(ko) {
-  font-family: 'Noto Sans KR';
+:lang(ko).Gothic {
+  font-family: 'Noto Sans KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
 }
 /* 北 */ :lang(ko-KP) {
   font-family: 'KP CheongPong', 'Noto Serif KR', 'IPAmjMincho', 'HanaMinA', 'HanaMinB';
